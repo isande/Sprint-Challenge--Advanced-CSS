@@ -1,1 +1,26 @@
-// Mixins Here
+.button(@background, @fontColor, @width) {
+  background-color: @background;
+  color: @fontColor;
+  font-size: 1.8rem;
+  text-align: center;
+  border-radius: 5px;
+  width: @width;
+  padding:3%;
+  text-decoration: none;
+
+  &:hover {
+    color: @background;
+    background-color: @fontColor;
+}
+}
+
+.linkstyle {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+
+.navstyle {
+  display: flex;
+  padding: 1%;
+}
